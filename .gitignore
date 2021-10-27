@@ -1,1 +1,4 @@
 .DS_Store
+pyenv.cfg
+bin
+lib/

@@ -68,6 +68,7 @@ def get_data_gr3():
             items = soup.find('table', attrs = {'class':'effect'}).findAll('td')
             for item in items:
                 document_grade = document_grade + item.text
+                document_grade = document_grade + '\n'
         except:
             print('A none appeared')
     
